@@ -1,0 +1,43 @@
+.inner-container {
+  display: flex;
+  padding: 10px;
+}
+
+.reminder-name {
+  margin-left: 8px;
+}
+
+.second {
+  margin-top: 0px;
+}
+
+.reminder-age {
+  position: relative;
+  top: -13px;
+  color: #947d98;
+  margin-left: 10px;
+  font-size: small;
+}
+
+.btn-container {
+  display: flex;
+  padding: 0.8rem 1.5rem;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 1.5rem;
+  flex: 1;
+  margin: 10px;
+  color: #fff;
+  background-color: #f28ab2;
+  width: auto;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+  color: #fff;
+  background-color: #f44336;
+}
